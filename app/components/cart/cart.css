@@ -1,0 +1,20 @@
+.order {
+    padding: 0 0 30px 0;
+}
+.submit {
+    background-color: #DF0000;
+    padding: 8px 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 1px solid #CC0101;
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit:active {
+    background-color: #B60006;
+}

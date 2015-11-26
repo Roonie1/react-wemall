@@ -15,14 +15,19 @@ export default class Header extends React.Component{
         this.setState({showMenu:!this.state.showMenu});
     }
     render(){
+        let style={};
+        console.log(this.props.data);
+        if (!this.props.data.showIcon){
+            style={display:"none"};
+        }
         return(
             <div className="menu_header">
                 <div className="menu_topbar">
                     <div className="sort sort_on">
-                        <a>比文科技</a>
+                        <a>{this.props.data.header}</a>
                         <Menu handleClickShow={this.state.showMenu}></Menu>
                     </div>
-                    <a className="head_btn_right" onClick={this._handleClick.bind(this)}>
+                    <a className="head_btn_right" onClick={this._handleClick.bind(this)} style={style}>
                         <i className="menu_header_home"></i>
                     </a>
                 </div>

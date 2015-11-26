@@ -5,9 +5,9 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import MenuContainer from "./components/menu-container/menu-container.jsx";
+import Container from "./components/container/container.jsx";
 
 ReactDOM.render(
-    <MenuContainer></MenuContainer>,
+    <Container></Container>,
     document.getElementById('app')
 );

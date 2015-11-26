@@ -1,0 +1,85 @@
+.cartinfo {
+    height: 25px;
+    padding: 0 10px;
+    color: #777;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.orderlist ul {
+    margin-top: 5px;
+}
+.ccbg2 {
+    background-color: #FFF;
+    overflow: hidden;
+}
+.orderlist li {
+    position: relative;
+    padding: 5px 15px 5px 10px;
+    border-bottom: 1px solid #DBDBDB;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.orderlist .dish {
+    display: block;
+}
+
+.price {
+    color: #D00A0A;
+}
+
+.orderlist .price {
+    color: #D00A0A;
+    font-size: 16px;
+}
+
+.orderchange {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 103px;
+}
+
+.orderchange .count {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    background: #697077;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    font-size: 18px;
+}
+.twobtn {
+    margin: 8px;
+}
+.footerbtn {
+    width: 50%;
+    float: left;
+}
+
+.right3 {
+    margin-right: 3px;
+}
+
+.left3 {
+    margin-left: 3px;
+}
+
+.del {
+    background-color: #fff;
+    padding: 8px 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+    color: #666666;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
