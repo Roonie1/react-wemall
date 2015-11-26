@@ -40,57 +40,39 @@
     background-color: #B60006;
 }
 
-.del {
-    background-color: #fff;
-    padding: 8px 20px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    border: 1px solid #CECECE;
-    border-radius: 5px;
-    color: #666666;
-    display: block;
-    cursor: pointer;
-    text-align: center;
-}
-
-.del:active {
-    background-color: #cecece;
-}
-
-.del img, .submit img, .submit2 img {
+.submit img{
     width: 24px;
     margin: 0 10px 0 0;
 }
 
-.submit2 {
-    background-color: #ffe156;
-    padding: 10px 20px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    border: 1px solid #D2BD85;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff5cb),
-    to(#ffe156));
-    box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    color: #333;
-    display: block;
-    cursor: pointer;
-    text-align: center;
-    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
-}
+/*.submit2 {*/
+    /*background-color: #ffe156;*/
+    /*padding: 10px 20px;*/
+    /*font-size: 18px;*/
+    /*letter-spacing: 2px;*/
+    /*text-decoration: none;*/
+    /*border: 1px solid #D2BD85;*/
+    /*background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff5cb),*/
+    /*to(#ffe156));*/
+    /*box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.15);*/
+    /*border-radius: 5px;*/
+    /*color: #333;*/
+    /*display: block;*/
+    /*cursor: pointer;*/
+    /*text-align: center;*/
+    /*text-shadow: 0 1px rgba(255, 255, 255, 0.5);*/
+/*}*/
 
-.submit2:active {
-    padding-bottom: 9px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 11px;
-    top: 0px;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe156),
-    to(#fff5cb));
-    box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.15);
-}
+/*.submit2:active {*/
+    /*padding-bottom: 9px;*/
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    /*padding-top: 11px;*/
+    /*top: 0px;*/
+    /*background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe156),*/
+    /*to(#fff5cb));*/
+    /*box-shadow: 0 1px 1px #fff3c2 inset, 0 1px 2px rgba(0, 0, 0, 0.15);*/
+/*}*/
 .contact-info {
     background-color: #fff;
     text-align: left;
