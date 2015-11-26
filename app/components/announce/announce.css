@@ -1,0 +1,36 @@
+.gonggao {
+    background-color: #FFF;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    position: relative;
+}
+
+.gonggao .content {
+    text-indent: 2em;
+    color: #333;
+}
+
+.hot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.hot strong {
+    display: inline-block;
+    width: 60px;
+    background: #F00;
+    color: #fff;
+    font-size: 80%;
+    text-align: center;
+    padding: 16px 0 1px 0px;
+    -webkit-transform: rotate(-45deg) translate(-10px, -25px);
+    font-weight: normal;
+    font-size: 12px;
+}

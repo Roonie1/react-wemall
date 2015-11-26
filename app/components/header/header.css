@@ -1,0 +1,86 @@
+.menu_header {
+    position: relative;
+    z-index: 7;
+    height: 40px;
+}
+.menu_topbar {
+    color: #fff;
+    background-color: #49535d;
+    background: -webkit-linear-gradient(top, #49535d, #49535d);
+    border-bottom: 1px solid #313A44;
+    border-top: 0 none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.sort {
+    position: relative;
+    margin: 0 65px;
+}
+
+.sort a {
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+    padding: 0 24px 0 10px;
+    line-height: 40px;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.header {
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+    padding: 0 24px 0 10px;
+    line-height: 40px;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.head_btn_right span {
+    float: left;
+    display: inline-block;
+    height: 32px;
+    line-height: 30px;
+    color: #fff;
+    background-image: url(http://img.ishangtong.com/images/zEdepbMPHt.png);
+    background-size: 105px;
+    padding-left: 10px;
+    padding-right: 4px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.head_btn_left b, .head_btn_right b {
+    background-image: url(http://img.ishangtong.com/images/zEdepbMPHt.png);
+    background-position: bottom right;
+    background-size: 105px;
+    width: 6px;
+    height: 32px;
+    float: left;
+}
+
+.head_btn_right {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 64px;
+}
+
+.head_btn_right:active {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.menu_header_home {
+    background: url(../../public/img/menu.png) no-repeat;
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 8px 20px;
+}
