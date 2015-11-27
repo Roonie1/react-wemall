@@ -24,7 +24,7 @@ export default class Menu extends React.Component{
         };
         let Items = [];
         for(let i=0; i < this.state.data.length; i++){
-            Items.push(<li><a onClick={this._handleClick.bind(this)}>{this.state.data[i].name}</a></li>);
+            Items.push(<li key={i}><a onClick={this._handleClick.bind(this)}>{this.state.data[i].name}</a></li>);
         }
         return (
             this.props.handleClickShow ?

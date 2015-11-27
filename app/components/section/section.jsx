@@ -31,7 +31,7 @@ export default class Session extends React.Component{
     render(){
         let Items =[];
         for(let i=0;i<this.state.data.length;i++){
-            Items.push(<Item data={this.state.data[i]}></Item>)
+            Items.push(<Item key={i} data={this.state.data[i]}></Item>)
         }
         return(
             <section className="section">

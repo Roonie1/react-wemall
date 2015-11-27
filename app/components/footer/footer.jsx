@@ -71,7 +71,7 @@ export default class Footer extends React.Component {
     render() {
         let list =[];
         for (let i=0; i < this.state.item.length;i++){
-            list.push(<FooterItem handleOnClick={this._handleChange.bind(this)} data={this.defaultProps.item[i]} state={this.state.item[i]}></FooterItem>)
+            list.push(<FooterItem key={i} handleOnClick={this._handleChange.bind(this)} data={this.defaultProps.item[i]} state={this.state.item[i]}></FooterItem>)
         }
         return (
             <div className="footermenu">
