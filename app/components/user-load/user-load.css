@@ -1,0 +1,35 @@
+.del {
+    background-color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+    color: #666666;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.del:active {
+    background-color: #cecece;
+}
+
+.del img{
+    width: 24px;
+    margin: 0 10px 0 0;
+}
+.page_tag_load{
+    display: none;
+    z-index: 10;
+}
+.btn-group{
+    position: fixed;
+    font-size: 12px;
+    width: 220px;
+    bottom: 80px;
+    left: 50%;
+    margin-left: -110px;
+    z-index: 999;
+}

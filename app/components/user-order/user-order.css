@@ -1,0 +1,17 @@
+.round {
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #FFF;
+    margin-bottom: 11px;
+    display: block;
+    color: #666666;
+}
+.cpbiaoge {
+    width: 100%;
+    text-align: left;
+}
+
+.cpbiaoge .cc {
+    text-align: center !important;
+}
