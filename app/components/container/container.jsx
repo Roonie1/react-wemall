@@ -4,6 +4,7 @@ import React from "react";
 import Header from "../header/header.jsx";
 import Home from "../home/home.jsx";
 import Cart from "../cart/cart.jsx";
+import Users from "../users/users.jsx";
 import Footer from "../footer/footer.jsx";
 
 export default class MenuContainer extends React.Component{
@@ -12,7 +13,8 @@ export default class MenuContainer extends React.Component{
         this.state={
             data:[
                 {header:"比文科技",showIcon:true},
-                {header:"购物车",showIcon:false}
+                {header:"购物车",showIcon:false},
+                {header:"查看我的订单",showIcon:false}
             ],
             footer:0
         }
@@ -34,6 +36,9 @@ export default class MenuContainer extends React.Component{
                 break;
             case 1:
                 content=<Cart></Cart>;
+                break;
+            case 2:
+                content=<Users></Users>;
                 break;
             default:
                 break;

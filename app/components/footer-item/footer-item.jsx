@@ -6,18 +6,14 @@ export default class FooterItem extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            active:this.props.state.active,
             num:this.props.state.num
         }
     }
 
     _handleClick(){
-        if (!this.state.active){
+        if (!this.props.state.active){
             this.props.handleOnClick(this.props.data.content);
         }
-    }
-    componentWillReceiveProps(nextProps){
-        this.setState({active:nextProps.state.active,num:nextProps.state.num});
     }
 
     render(){
@@ -27,7 +23,7 @@ export default class FooterItem extends React.Component{
         }
         return (
             <li className="listli">
-                <a className={this.state.active?"active":""} onClick={this._handleClick.bind(this)}>{num?num:""}<img src={this.props.data.src}/>
+                <a className={this.props.state.active?"active":""} onClick={this._handleClick.bind(this)}>{num?num:""}<img src={this.props.data.src}/>
                 <p>{this.props.data.content}</p>
             </a></li>
         )
